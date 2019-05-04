@@ -112,7 +112,8 @@ select，poll，epoll都是IO多路复用的机制。I/O多路复用就通过一
    2: 把用户关心的文件描述符上的事件放在内核的一个事件表中，无须向select、poll那样每次调用都要重复传入文件描述符集或事件集，但epoll需要用一个额外的文件描述符来表示内核中的这个事件表
    
 # 说说你对Netty的了解
-  
+  ![avatar](netty.jpeg)
+
 # Netty跟Java NIO有什么不同，为什么不直接使用JDK NIO类库
 
 ## NIO与Netty的区别：
